@@ -1,82 +1,27 @@
 {
   "project_info": {
-    "project_number": "882085193947",
-    "firebase_url": "https://arc-rfid-default-rtdb.firebaseio.com",
-    "project_id": "arc-rfid",
-    "storage_bucket": "arc-rfid.appspot.com"
+    "project_number": "143038329839",
+    "firebase_url": "https://arc-lock-6e5c6-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "arc-lock-6e5c6",
+    "storage_bucket": "arc-lock-6e5c6.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:882085193947:android:1155940ffc96503f5bc4fe",
-        "android_client_info": {
-          "package_name": "com.example.arc"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "882085193947-ci8ufmfir4ojbv61kbb53pa08hk8498i.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.arc",
-            "certificate_hash": "977fe58578ee432cc0189d6e38c785cc2b904915"
-          }
-        },
-        {
-          "client_id": "882085193947-u5c0a1v5707q90vs78b5q6r9mittjb66.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA__khrNL8moKphBwnbJWCd3yYWGJNFWmY"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "882085193947-u5c0a1v5707q90vs78b5q6r9mittjb66.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:882085193947:android:2a31df76fc7f7c085bc4fe",
+        "mobilesdk_app_id": "1:143038329839:android:a175c9770b5c9357a03c1a",
         "android_client_info": {
           "package_name": "com.example.arcmember"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "882085193947-50mbnsr7ejj4438ql9ovctl584ch10in.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.arcmember",
-            "certificate_hash": "977fe58578ee432cc0189d6e38c785cc2b904915"
-          }
-        },
-        {
-          "client_id": "882085193947-u5c0a1v5707q90vs78b5q6r9mittjb66.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyA__khrNL8moKphBwnbJWCd3yYWGJNFWmY"
+          "current_key": "AIzaSyBAkAcIZffsTj2x5B1tEMM_SSO-lF7n_mo"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "882085193947-u5c0a1v5707q90vs78b5q6r9mittjb66.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
