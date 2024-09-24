@@ -3,7 +3,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="red">#FF0000</color>
-    <color name="green">#008000</color>
+    <color name="green">#7ed957</color>
     <color name="gray">#808080</color>
+    <color name="AppBG">#131217</color>
+    <color name="themePurple">#5e17eb</color>
 
 </resources>

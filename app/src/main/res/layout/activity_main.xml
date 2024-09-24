@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3A3939"
+    android:background="#131217"
     tools:context=".MainActivity">
 
     <EditText
@@ -16,6 +16,7 @@
         android:hint="Username"
         android:inputType="text"
         android:textColor="#F4F0F0"
+        android:textColorHint="#FF696969"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.387"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,6 +31,7 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:textColor="#F4F0F0"
+        android:textColorHint="#FF696969"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.387"
         app:layout_constraintStart_toStartOf="parent"

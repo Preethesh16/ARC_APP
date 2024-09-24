@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Thumb color when the switch is ON -->
+    <item android:color="#5e17eb" android:state_checked="true" />
+    <!-- Default thumb color when the switch is OFF -->
+    <item android:color="@color/gray" />
+</selector>

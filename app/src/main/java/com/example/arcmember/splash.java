@@ -62,7 +62,7 @@ public class splash extends AppCompatActivity {
                     }
                 });
             }
-        },500);
+        },1000);
     }
 
     public void login(String Username, String Password){

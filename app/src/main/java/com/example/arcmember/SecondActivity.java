@@ -6,7 +6,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,6 +28,9 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
         Intent intent = getIntent();
         Username = intent.getStringExtra("Username");
+        TextView greet = findViewById(R.id.textView6);
+        greet.setText("Hi, "+Username);
+
         databaseReference = FirebaseDatabase.getInstance().getReference().child("access/"+Username+"/status");
         TextView feedback = findViewById(R.id.textView3);
         databaseReference.addValueEventListener(new ValueEventListener() {
@@ -36,7 +41,7 @@ public class SecondActivity extends AppCompatActivity {
                     Status=data;
                     if(data.equals("granted")){
                         feedback.setText("Granted");
-                        feedback.setTextColor(Color.GREEN);
+                        feedback.setTextColor(Color.parseColor("#7ed957"));
                     }
                     else{
                         feedback.setText("Denied");
@@ -61,6 +66,16 @@ public class SecondActivity extends AppCompatActivity {
             databaseReference1.setValue(status);
             feedback.setText("Granted");
             feedback.setTextColor(Color.GREEN);
+            Button btn = findViewById(R.id.button2);
+            btn.setBackground(getResources().getDrawable(R.drawable.round_btn_white, null));
+            btn.setTextColor(Color.parseColor("#5e17eb"));
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    btn.setBackground(getResources().getDrawable(R.drawable.round_btn, null));
+                    btn.setTextColor(Color.parseColor("#FFFFFF"));
+                }
+            },500);
         }
         else{
             feedback.setText("Denied");
