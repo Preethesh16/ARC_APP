@@ -20,7 +20,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class splash extends AppCompatActivity {
-    int Cversion = 3;
+    int Cversion = 5;
     private DatabaseReference databaseReference2;
     private DatabaseReference databaseReference;
     @Override

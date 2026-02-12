@@ -1,14 +1,14 @@
 {
   "project_info": {
-    "project_number": "143038329839",
-    "firebase_url": "https://arc-lock-6e5c6-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "arc-lock-6e5c6",
-    "storage_bucket": "arc-lock-6e5c6.appspot.com"
+    "project_number": "142162141780",
+    "firebase_url": "https://arcautomation-9eb52-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "arcautomation-9eb52",
+    "storage_bucket": "arcautomation-9eb52.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:143038329839:android:a175c9770b5c9357a03c1a",
+        "mobilesdk_app_id": "1:142162141780:android:386e155a6a9929eeddc3c1",
         "android_client_info": {
           "package_name": "com.example.arcmember"
         }
@@ -16,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBAkAcIZffsTj2x5B1tEMM_SSO-lF7n_mo"
+          "current_key": "AIzaSyCf_aS1ID4020NsqKwCpWhxTnWlnK6Bl-c"
         }
       ],
       "services": {
